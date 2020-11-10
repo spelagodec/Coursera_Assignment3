@@ -20,7 +20,7 @@ dataSetx : dataSetx only contain mean and std variables
 #Changing Column label of dataSet
 Create a vector of "clean" feature names by getting rid of "()" at the end. Then, will apply that to the dataSet to rename column labels.
 
-CleanNames : a vector of "clean" feature names
+CleanNames : a vector of "clean" feature namess
 
 #Adding Subject and Activity to the dataSet
 Combine test data and train data of subject and activity, then give descriptive lables. Finally, bind with dataSet. At the end of this step, dataSet has 2 additonal columns 'subject' and 'activity' in the left side.
